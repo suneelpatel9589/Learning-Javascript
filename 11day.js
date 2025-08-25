@@ -28,7 +28,7 @@ if(num%2 == 0){
 else{
     console.log("odd" ,num)
 }
-    console.log()
+   
 }
 let num = parseInt(prompt("enter a number"))
 Add(num)
