@@ -24,7 +24,7 @@
 
 let circle = (r) =>(3.14*r*r)
 
-console.log(circle(5));
+console.log(circle(8));
 
 
 
@@ -32,7 +32,13 @@ console.log(circle(5));
     //write to input from the user and prints its squre using with function with parameter
 let x = parseInt(prompt("Enter a number"));
 
-let y = () => (x * x);
+let y = (x) => (x * x);
 
-console.log(y());    // input का square देगा
+console.log(y(x)); 
+
+//
+
+let a = parseInt(prompt("enter a input"))
+let even = (num) => (num%2 === 0);
+console.log(even(a));
 
