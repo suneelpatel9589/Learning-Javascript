@@ -1,24 +1,34 @@
- let a = parseInt(prompt("Enter your marks: Hindi"))
-let b = parseInt(prompt("Enter your marks: English"))
-let c = parseInt(prompt("Enter your marks: Physics"))
-let d = parseInt(prompt("Enter your marks: Math"))
-let e = parseInt(prompt("Enter your marks: Chemistry"))
+/*
+let p = document.getElementById('p')
+p.style.cssText = "text-align:center; color:red;"
 
-let total = a + b + c + d + e;
-let percentage = total / 5;
+let c = document.createElement('img')
+c.src = "pic.png"
 
-console.log("total marks", total)
-console.log("parcentage",percentage)
+document.body.append(c)
 
-if (percentage >=60) {
-    console.log("Grade = A");
-}
- else if (percentage >=50) {
-    console.log("Grade = B");
- }
-else if (percentage >=33) {
-    console.log("Grade = C");
-} 
-else{
-    console.log("failed")
-}
+let ul = document.createElement('ul')
+let li = document.createElement('li')
+li.textContent = 'home'
+let li1 = document.createElement('li')
+li1.textContent = 'contact'
+let li2 = document.createElement('li')
+li2.textContent = 'security'
+ul.append(li,li1,li2)
+li.style = "type","square"
+document.body.append(ul)
+
+
+let sec = document.createElement('section')
+let div = document.createElement('div')
+let h = document.createElement('h1')
+h.textContent = 'my name is suneel patel i am a study'
+div.append(h)
+sec.append(div)
+sec.style.cssText = 'background-color:red; padding:40px;color:skyblue;text-align:center'
+document.body.append(sec)
+console.log(sec)
+
+
+*/
+
