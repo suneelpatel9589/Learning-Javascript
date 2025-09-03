@@ -17,7 +17,7 @@
 
     let fun2 =(a,b) => (a*b)
     console.log(fun2(4,5))
-//3
+
     let fun3 = name => name
     console.log(fun3("suneel"))
     //write a program aera of circle using arrow function wth parameter
