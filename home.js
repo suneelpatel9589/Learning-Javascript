@@ -1,46 +1,21 @@
 
+function  add(){
+let a = parseInt(prompt("enter a 1st number"))
+let b = parseInt(prompt('enter a 2nd number'))
+let c = a+b
+let res = document.getElementById('ans')
+res.textContent = c
+res.style.cssText = 'padding:20px;color:red;background-color:pink;border-radius:50%'
+}
 
-function sum() {
-
-        let btn = document.getElementById('btn');
-        let current = document.body.style.backgroundColor;
-
-        if (current === "red") {
-            document.body.style.backgroundColor = "blue";
-            btn.textContent = "blue";
-        } 
-        else if (current === "blue") {
-            document.body.style.backgroundColor = "yellow";
-           btn.textContent = "yellow";
-        } 
-        else {
-            document.body.style.backgroundColor = "red";
-        btn.textContent = "red";
-        }
-       
-    }
-
-    function fun(){
+function odd(){
+let d = document.getElementById('stt')
+d.style.cssText = 'position:relative;left:50%'
     
-        document.body.style.backgroundColor = 'red'
-alert('working process...')
-    }
+}
 
-    let sec = document.createElement('section')
-    let div = document.createElement('div')
-    let h = document.createElement('h1')
-    h.textContent = 'my name is suneel patel '
-    div.append(h)
-    sec.append(div)
-    sec.style.backgroundColor = 'red'
-    document.body.append(sec)
-    console.log(sec)
-
-    let btn = document.createElement('button' )
-    btn.textContent = 'enter'
-    btn.onmouseleave= function(){
-        btn.style.backgroundColor = 'yellow'
-        alert('working...');
-    }
-    document.body.append(btn)
-    console.log(btn)
+function fun(){
+let c = document.getElementById('stt')
+c.style.cssText = 'left:0;'
+    
+}

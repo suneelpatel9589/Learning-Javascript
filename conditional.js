@@ -38,7 +38,7 @@ let d = parseInt(prompt("Enter your marks: Math"))
 let e = parseInt(prompt("Enter your marks: Chemistry"))
 
 let total = a + b + c + d + e;
-let percentage = total / 5;
+let percentage = 100 / 5;
 
 console.log("total marks", total)
 console.log("parcentage",percentage)

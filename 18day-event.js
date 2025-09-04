@@ -1,8 +1,8 @@
 
-function color (cl){
- document.getElementById('h').textContent = cl
+function color (a){
+ document.getElementById('h').textContent = a
 
- document.body.style.backgroundColor = cl
+ document.body.style.backgroundColor = a
 
 
 }

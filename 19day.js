@@ -1,7 +1,3 @@
-
-//addition
-
-
 function add(){
 
 let a = parseInt(prompt("enter 1 number"))
@@ -12,15 +8,25 @@ res.textContent = c
 res.style.cssText = 'padding:20px;color:red;border-radius:50%;background-color:pink'
 }
 
-//button left move
 
+
+
+
+//button left move
+let btn1 =  document.getElementById('btn1')
+let move = false
 function fun(){
-let p =  document.getElementById('move')
-p.style.cssText = 'position:relative;left:50% ; right:50%'
+
+
+if(!move){
+  btn1.style.cssText = 'position:relative;left:50%'
+  move = true
+}
+else{
+
+  btn1.style.cssText = 'left:0%'
+  move = false
+}
  
 
-}   
-function back() {
-  let p = document.getElementById('move');
-  p.style.left = "0"
 }
