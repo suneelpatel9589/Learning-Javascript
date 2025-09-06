@@ -13,7 +13,9 @@ h.innerHTML = 'file'
 // id target
 let o = document.querySelector('#son')
 o.textContent = 'suneel'
+o.style.color  = 'pink'
 
 //tag class 
 let s = document.querySelector('.hero')
 s.textContent = 'class selector'
+s.style.color = 'red'

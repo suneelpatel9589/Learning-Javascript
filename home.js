@@ -1,21 +1,37 @@
 
-function  add(){
-let a = parseInt(prompt("enter a 1st number"))
-let b = parseInt(prompt('enter a 2nd number'))
-let c = a+b
-let res = document.getElementById('ans')
-res.textContent = c
-res.style.cssText = 'padding:20px;color:red;background-color:pink;border-radius:50%'
-}
-
-function odd(){
-let d = document.getElementById('stt')
-d.style.cssText = 'position:relative;left:50%'
-    
-}
+let btn = document.getElementById('btn')
+let move = false
 
 function fun(){
-let c = document.getElementById('stt')
-c.style.cssText = 'left:0;'
-    
+
+if(!move){
+    btn.style.cssText = 'position:relative;left:50%'
+    move = true
 }
+else(
+
+    btn.style.cssText = 'left:0'
+)
+
+
+}
+
+
+
+let count = 0;  
+function inc() {
+
+  document.getElementById('h').innerHTML = ++count
+
+}
+function dec() {
+  
+  document.getElementById('h').innerHTML = --count
+
+}
+function res() {
+
+  document.getElementById('h').innerHTML = 0
+
+}
+

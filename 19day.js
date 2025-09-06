@@ -30,3 +30,25 @@ else{
  
 
 }
+
+//increment decement reset button
+
+let count = 0;  
+function inc() {
+
+  
+  let d = document.getElementById('h').innerHTML = ++count
+
+}
+function dec() {
+  if(count>0){
+  document.getElementById('h').innerHTML = --count
+  }
+}
+function res() {
+  count =  0;
+
+  document.getElementById('h').innerHTML = 0
+
+}
+
