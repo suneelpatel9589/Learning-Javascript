@@ -25,8 +25,18 @@ console.log(student);
 */
 let odd = [15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,]
 for(let i = 0; i<14;i++){
-    if(i%2!==0){
+    if(i%2==0){
         console.log(odd[i])
     }
 }
+//even number print
+
+let student = [15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+for(let a = 0; a<15;a++){
+if(a%2!==0){
+    console.log(student[a])
+}
+
+}
+
 
