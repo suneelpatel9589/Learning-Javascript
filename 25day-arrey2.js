@@ -1,5 +1,5 @@
 //num length
-/*
+
 let num = [2,2,1,4,5,6,7,87,834,34,3,90,76,44,33,223,122,678,334]
 for(let i = 0; i<num.length; i++){
     console.log(num[i]);
@@ -32,7 +32,7 @@ for(let a= 0;a<crop.length;a++){
         console.log(crop[a]);
     }
 }
-    */
+    
    let digit = [10,15,1,3,8,7,6,5,]//delete.add 3 argument pass hogi splice(index,no. of element ,add elements)
    digit.splice(3,2,"suneel")
    console.log(digit)
