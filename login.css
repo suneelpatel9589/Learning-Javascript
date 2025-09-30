@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sec{
+    padding: 70px 30px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+
+}
+.sec div{
+    background-color:  white;
+    max-width: 325px;
+    padding: 20px;  
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.sec label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.sign{
+    text-align: center;
+    font-weight: bold;
+}
+.sec input{
+    padding: 8px 70px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+}
+/*login form */
+
+
+
+.sec{
+    padding: 70px 30px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+
+}
+.sec div{
+    background-color:  white;
+    max-width: 325px;
+    padding: 20px;  
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.sec label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.sign{
+    text-align: center;
+    font-weight: bold;
+}
+.sec input{
+    padding: 8px 70px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+}
+
+/* send html */
+.moo{
+    padding: 20px;
+    background-color:rgb(255, 192, 203);
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.hoo{
+    display: flex;
+    background-color:orange;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    justify-content: space-around;
+
+}
+.hoo div{
+    background-color: antiquewhite;
+    width: 380px;
+    height: auto;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+.heroit{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20PX;
+    
+}
+
+.heroit p{
+    background-color:skyblue;
+    padding:5px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.heroit button{
+    background-color: skyblue;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.heroit button:hover{
+    background-color: red;
+}
