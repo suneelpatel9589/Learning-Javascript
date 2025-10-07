@@ -1,0 +1,36 @@
+{
+  "userdetails": [
+    {
+      "id": "0bda1",
+      "name": "krish",
+      "city": "bhopal",
+      "contact": "123456",
+      "email": "krish@gmai.com",
+      "age": "23"
+    },
+    {
+      "id": "0bda3",
+      "name": "ashish",
+      "city": "SATNA",
+      "contact": "7879526090",
+      "email": "ap79@gmail.com",
+      "age": "24"
+    },
+    {
+      "id": "0bd4",
+      "name": "om patel",
+      "city": "jabalpur",
+      "contact": "99993115348",
+      "email": "om99@gmail.com",
+      "age": "25"
+    },
+    {
+      "id": "5034",
+      "name": "suman patel",
+      "city": "amarpatan",
+      "contact": "2345672423",
+      "email": "suman@gmail.com",
+      "age": "23"
+    }
+  ]
+}
