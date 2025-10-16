@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+      font-family: Arial, sans-serif;
+      background-color: #1b14fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+
+    td {
+      text-align: center;
+      padding: 30px 25px;
+    }
+
+    .data {
+      background: #ffffff;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+   
+    }
+       table {
+      border-spacing: 0;
+    }
+
+    .data1 {
+      background:red;
+      color: white;
+        border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+ 
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 60px;
+    }
+
+    p {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <section class="sec">
+    <table cellpadding="10">
+        <tr>
+            <td class="data">
+                <h1 id="date">--</h1>
+                <p id="din">--</p>
+            </td>
+            <td class="data1">
+                <p id="mahina">--</p>
+                <p id="year">--</p>
+            </td>
+        </tr>
+    </table>
+    </section>
+
+
+    <script>
+        let today = new Date()
+
+        let days = ['monday','tuesday', 'wednesday','thursday','friday', 'saturday', 'sunday']
+        let month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+        let aajkadate  = today.getDate()
+        let aajkadin  = days[today.getDay()]
+        let aajkamonth = month[today.getMonth()]
+        let aajkayear = today.getFullYear()
+
+        document.querySelector('#date').innerHTML = aajkadate
+        document.querySelector('#din').innerHTML = aajkadin
+        document.querySelector('#mahina').innerHTML = aajkamonth
+        document.querySelector('#year').innerHTML  = aajkayear
+
+    </script>
+</body>
+</html>
