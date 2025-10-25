@@ -1,0 +1,17 @@
+{
+  "userdetails": [
+    {
+      "id": "1",
+      "name": "suneel",
+      "city": "दिल्ली"
+    },
+    {
+      "id": "2e11",
+      "name": "aman",
+      "city": "select city",
+      "contact": "9589115046",
+      "email": "suneelpatel9589@gmail.com",
+      "age": "23"
+    }
+  ]
+}
